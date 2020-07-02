@@ -1,0 +1,64 @@
+/*sidebar*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#sidebar {
+  position: fixed;
+  width: 165px;
+  height: 100%;
+  background: #151719;
+  transition: all 500ms linear;
+  left: -228px;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: whitesmoke;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid white;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 60px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 5px;
+  padding: 3px;
+}
+
+.seta_direita {
+  width: 50px;
+}
+.conteudo_1{
+  height: 155px;
+}
+
+/*container*/
+.fundo_nav {
+  background-color: #7952b3 !important;
+}
+
+.sidel {
+  background-color: #7952b3 !important;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.sider {
+  background-color: #7952b3 !important;
+  height: 60px;
+}
